@@ -226,21 +226,21 @@ Chinese-CLIP/
 ├── run_scripts/
 │   ├── muge_finetune_vit-b-16_rbt-base.sh
 │   ├── flickr30k_finetune_vit-b-16_rbt-base.sh
-│   └── ...           # 更多finetune或评测脚本...
+│   └── ...               # 更多finetune或评测脚本...
 └── cn_clip/
-    ├── clip/
-    ├── eval/
-    ├── preprocess/
-    └── training/
+    ├── clip/             # 模型构建
+    ├── eval/             # 模型验证
+    ├── preprocess/       # 模型处理
+    └── training/         # 模型训练
 
 ${DATAPATH}
-├── pretrained_weights/
-├── experiments/
-├── deploy/	      # 用于存放ONNX & TensorRT部署模型
+├── pretrained_weights/   # 用于存放预训练权重文件
+├── experiments/	  # 用于保存训练日志、模型
+├── deploy/	        
 └── datasets/
     ├── MUGE/
     ├── Flickr30k-CN/
-    └── .../          # 更多自定义数据集...
+    └── .../              # 更多自定义数据集...
 ```
 
 ### 准备工作
