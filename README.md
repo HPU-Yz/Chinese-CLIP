@@ -257,7 +257,7 @@ ${DATAPATH}
 ```
 ${DATAPATH}
 └── datasets/
-    └── ${dataset_name}/
+    └── ${dataset_name}/        # 数据集名称
         ├── train_imgs.tsv      # 图片id & 图片内容
         ├── train_texts.jsonl   # 文本id & 文本内容，连同匹配的图片id列表
         ├── valid_imgs.tsv
