@@ -230,12 +230,12 @@ Chinese-CLIP/
 └── cn_clip/
     ├── clip/             # 模型构建
     ├── eval/             # 模型验证
-    ├── preprocess/       # 模型处理
+    ├── preprocess/       
     └── training/         # 模型训练
 
 ${DATAPATH}
 ├── pretrained_weights/   # 用于存放预训练权重文件
-├── experiments/	  # 用于保存训练日志、模型
+├── experiments/	  # 用于存放训练日志、模型
 ├── deploy/	        
 └── datasets/
     ├── MUGE/
